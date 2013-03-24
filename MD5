@@ -1,0 +1,17 @@
+158e5c8f5e440de5079f9dc59528af89 *DESCRIPTION
+628eb055276c1851526cda477df936d3 *NAMESPACE
+0a16fe430f01a772262a249a62e79c4b *R/Aggregate.R
+2c0a658e836483c22f19f39bb442ac30 *R/aCRM-internal.R
+4422365e6964861bb0f50088d328e493 *R/aCRMNews.R
+ff54679ebe7bbb1c1e782b2af779ced8 *R/cocktailEnsemble.R
+34204f9d68358e8292fff1d981fea8aa *R/imputeMissings.R
+814f3ee69f8731ed131247e7600673c1 *R/predict.cocktailEnsemble.R
+cc12e5a6084149ffbaef417b3f6e8414 *data/Credit.rda
+0fe6e56ab7037b8cb1b600af7d34e796 *inst/NEWS
+c377dd8c29a279eb2883034a9253aff5 *man/Aggregate.Rd
+dd444391b46db24be26c235a1de26d95 *man/Credit.Rd
+2ecf82c14d6b62880d3ca7ea62c77597 *man/aCRM-package.Rd
+e85b2776cefd6cb7b1c04c1de12705e4 *man/cocktailEnsemble.Rd
+95882eacd50575226b09bfc1213cb155 *man/imputeMissings.Rd
+d6983a5043cc51346a5e777029b32566 *man/kFNews.Rd
+9a12c72cc22497f795656b335a70da22 *man/predict.cocktailEnsemble.Rd

@@ -1,0 +1,11 @@
+Planned changes in next versions:
+
+
+* Extra combination methods for cocktailEnsemble such as a genetic algorithm
+* Error handling
+* Plotting functions
+* Extra base classifiers in cocktailEnsemble
+* Extra parameters to control base classifiers
+
+---------------------------------------------------------------
+Change log:
