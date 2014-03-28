@@ -20,12 +20,12 @@ A data frame.
 A data frame.
 }
 \references{
-Van den Poel, D., Ballings, M., Volkov, A., D''haen, J., Vanherwegen, M., Predictive Analytics for analytical Customer Relationship Management using SAS, Oracle and R, Springer, Forthcoming.
+Van den Poel, D., Ballings, M., Volkov, A., D''haen, J., Van Herwegen, M., Predictive Analytics for analytical Customer Relationship Management using SAS, Oracle and R, Springer, Forthcoming.
 }
 \author{
-Dirk Van den Poel, Michel Ballings,  Andrey Volkov, Jeroen D''haen, Michiel Vanherwegen
+Dirk Van den Poel, Michel Ballings,  Andrey Volkov, Jeroen D''haen, Michiel Van Herwegen
 
-Maintainer: Michel Ballings  <Michel.Ballings@UGent.be>
+Maintainer: Michel Ballings  <Michel.Ballings@GMail.com>
 }
 
 \seealso{
@@ -34,7 +34,9 @@ Maintainer: Michel Ballings  <Michel.Ballings@UGent.be>
 }
 \examples{
 #create some data
-data <- data.frame(V1=as.factor(c('yes','no','no',NA,'yes','yes','yes')),V2=as.character(c(1,2,3,4,4,4,NA)),V3=c(1:6,NA),V4=as.numeric(c(1:6,NA)))
+data <- data.frame(V1=as.factor(c('yes','no','no',NA,'yes','yes','yes')),
+                   V2=as.character(c(1,2,3,4,4,4,NA)),
+                   V3=c(1:6,NA),V4=as.numeric(c(1:6,NA)))
 #demonstrate function
 imputeMissings(data)
 }

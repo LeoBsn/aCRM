@@ -1,11 +1,13 @@
 Planned changes in next versions:
 
-
-* Extra combination methods for cocktailEnsemble such as a genetic algorithm
 * Error handling
-* Plotting functions
-* Extra base classifiers in cocktailEnsemble
-* Extra parameters to control base classifiers
-
+* Many more functions
 ---------------------------------------------------------------
 Change log:
+
+*0.1.1 March 2014
+Fixed bug which was due to change in one of the imported packages
+
+*0.1.0 March 2013:
+Package submitted with functions Aggregate, cocktailEnsemble, predict.cocktailEnsemble, imputeMissings
+

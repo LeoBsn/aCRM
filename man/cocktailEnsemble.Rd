@@ -51,9 +51,9 @@ ada:
 }
 }
 \author{
-Dirk Van den Poel, Michel Ballings,  Andrey Volkov, Jeroen D''haen, Michiel Vanherwegen
+Dirk Van den Poel, Michel Ballings,  Andrey Volkov, Jeroen D''haen, Michiel Van Herwegen
 
-Maintainer: Michel Ballings  <Michel.Ballings@UGent.be>
+Maintainer: Michel Ballings  <Michel.Ballings@GMail.com>
 }
 
 \seealso{
@@ -76,7 +76,7 @@ trainingset <- Credit[1:1:floor(0.50*nrow(Credit)),]
 cE <- cocktailEnsemble(x=trainingset[,names(trainingset)!= "Response"],y=trainingset$Response)
 
 #Deploy Kernel Factory to predict response for test data
-#pred <- predict(cE,testset)
+#pred <- predict(cE,testset[,names(testset)!= "Response"])
 
 }
 \keyword{classification}

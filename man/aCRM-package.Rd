@@ -20,13 +20,13 @@ Currently provided functions are:
 \code{imputeMissings}, \code{Aggregate}, \code{cocktailEnsemble}, \code{predict.cocktailEnsemble}
 }
 \author{
-Dirk Van den Poel, Michel Ballings,  Andrey Volkov, Jeroen D''haen, Michiel Vanherwegen
+Dirk Van den Poel, Michel Ballings,  Andrey Volkov, Jeroen D''haen, Michiel Van Herwegen
 
-Maintainer: Michel Ballings  <Michel.Ballings@UGent.be>
+Maintainer: Michel Ballings  <Michel.Ballings@GMail.com>
 }
 
 \references{
-Van den Poel, D., Ballings, M., Volkov, A., D''haen, J., Vanherwegen, M., Predictive Analytics for analytical Customer Relationship Management using SAS, Oracle and R, Springer, Forthcoming.
+Van den Poel, D., Ballings, M., Volkov, A., D''haen, J., Van Herwegen, M., Predictive Analytics for analytical Customer Relationship Management using SAS, Oracle and R, Springer, Forthcoming.
 }
 
 \keyword{ package }

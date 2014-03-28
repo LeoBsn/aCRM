@@ -19,12 +19,12 @@ Prediction of new data using \code{cocktailEnsemble}. \code{predict} combines th
 A vector containing the probabilities of the predicted event.
 }
 \references{
-Van den Poel, D., Ballings, M., Volkov, A., D''haen, J., Vanherwegen, M., Predictive Analytics for analytical Customer Relationship Management using SAS, Oracle and R, Springer, Forthcoming.
+Van den Poel, D., Ballings, M., Volkov, A., D''haen, J., Van Herwegen, M., Predictive Analytics for analytical Customer Relationship Management using SAS, Oracle and R, Springer, Forthcoming.
 }
 \author{
-Dirk Van den Poel, Michel Ballings,  Andrey Volkov, Jeroen D''haen, Michiel Vanherwegen
+Dirk Van den Poel, Michel Ballings,  Andrey Volkov, Jeroen D''haen, Michiel Van Herwegen
 
-Maintainer: Michel Ballings  <Michel.Ballings@UGent.be>
+Maintainer: Michel Ballings  <Michel.Ballings@GMail.com>
 }
 
 \seealso{
@@ -46,7 +46,7 @@ testset <- Credit[(floor(0.50*nrow(Credit))+1 ):nrow(Credit),]
 cE <- cocktailEnsemble(x=trainingset[,names(trainingset)!= "Response"],y=trainingset$Response)
 
 #Deploy Kernel Factory to predict response for test data
-pred <- predict(cE,testset)
+pred <- predict(cE,testset[,names(testset)!= "Response"])
 
 }
 \keyword{classification}

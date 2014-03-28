@@ -22,12 +22,12 @@ Aggregate(x, by)
 A data frame with the aforementioned variables aggregated by the given ID variables.
 }
 \references{
-Van den Poel, D., Ballings, M., Volkov, A., D''haen, J., Vanherwegen, M., Predictive Analytics for analytical Customer Relationship Management using SAS, Oracle and R, Springer, Forthcoming.
+Van den Poel, D., Ballings, M., Volkov, A., D''haen, J., Van Herwegen, M., Predictive Analytics for analytical Customer Relationship Management using SAS, Oracle and R, Springer, Forthcoming.
 }
 \author{
-Dirk Van den Poel, Michel Ballings,  Andrey Volkov, Jeroen D''haen, Michiel Vanherwegen
+Dirk Van den Poel, Michel Ballings,  Andrey Volkov, Jeroen D''haen, Michiel Van Herwegen
 
-Maintainer: Michel Ballings  <Michel.Ballings@UGent.be>
+Maintainer: Michel Ballings  <Michel.Ballings@GMail.com>
 }
 
 \seealso{
@@ -36,7 +36,8 @@ Maintainer: Michel Ballings  <Michel.Ballings@UGent.be>
 }
 \examples{
 #Create some data
-data <- data.frame(V1=as.factor(c('yes','no','no','yes','yes','yes','yes')),V2=as.character(c(1,2,3,4,4,4,4)),V3=c(1:7),V4=as.numeric(c(7:1)))
+data <- data.frame(V1=as.factor(c('yes','no','no','yes','yes','yes','yes')),
+                    V2=as.character(c(1,2,3,4,4,4,4)),V3=c(1:7),V4=as.numeric(c(7:1)))
 ID=as.character(c(1,1,1,1,2,2,2))
 #Demonstrate function
 Aggregate(x=data,by=ID)
